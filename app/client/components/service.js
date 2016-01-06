@@ -57,7 +57,7 @@
 
       You'll notice if you don't allow geolocation, and you're prompted for an address, the values won't populate
       for each controller until that address is set or your alert is cancelled...
-      That's because mapInitialized hasn't been resolved
+      That's because mapActivated hasn't been resolved
     */
 
     var mapActivated = $q.defer()
